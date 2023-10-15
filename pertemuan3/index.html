@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Tabel</title>
+    <style>
+        th{
+            background-color: blue;
+            color: aliceblue;
+            padding: 7px 0px;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Stok Barang Toko Maju Terus</h2>
+    <table style="width: 100%;" border="1">
+        <tr>
+            <th style="width: 5%;">No</th>
+            <th>Nama Barang</th>
+            <th>Harga</th>
+            <th>Jumlah</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Note Book</td>
+            <td>100000</td>
+            <td>100</td>
+            <td>Grosir</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Drawing Book</td>
+            <td>120000</td>
+            <td>110</td>
+            <td>Grosir</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Art Canvas</td>
+            <td>170000</td>
+            <td>10</td>
+            <td>Eceran</td>
+        </tr>
+    </table>
+    <h2 style="text-align: center;">Stok Barang Toko Pantang Mundur</h2>
+    <table style="width: 100%;" border="1">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama Barang</th>
+            <th colspan="2">Harga</th>
+            <th rowspan="2">Stok Barang</th>
+        </tr>
+        <tr>
+            <th>Eceran</th>
+            <th>Grosir</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kecap Manis</td>
+            <td>29500</td>
+            <td>250000</td>
+            <td>270</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kecap Inggris</td>
+            <td>37500</td>
+            <td>450000</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kecap Asin</td>
+            <td>33500</td>
+            <td>290000</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Saus Tomat</td>
+            <td>18500</td>
+            <td>200000</td>
+            <td>220</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Saus Pedas</td>
+            <td>20500</td>
+            <td>190000</td>
+            <td>250</td>
+        </tr>
+    </table>
+    <h3>PIC Gudang</h3>
+    <table border="1" style="width: 50%;">
+        <tr>
+            <th rowspan="1">Nama</th>
+            <td>Jennifer Smith</td>
+        </tr>
+        <tr>
+            <th rowspan="1">Jabatan</th>
+            <td>Kepala Gudang</td>
+        </tr>
+        <tr>
+            <th rowspan="1">Alamat</th>
+            <td>Jalan Sukses 123</td>
+        </tr>
+        <tr>
+            <th rowspan="1">No.Hp</th>
+            <td>08978764332</td>
+        </tr>
+    </table>
+</body>
+</html>
